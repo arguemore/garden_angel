@@ -1,4 +1,4 @@
-# Digital Garden
+# Digital Garden (WIP)
 
 Will be adding the following for personal use:
 - [ ] Internal linking
