@@ -1,0 +1,1 @@
+import{DocumentPaneProvider as a,DocumentPane as i}from"./index-63f13ccc-f418aabe.js";import"./desk-592bd320-5caa45cd.js";import"./_commonjsHelpers-042e6b4d.js";import"./index-7be5955f.js";export{a as DocumentPaneProvider,i as default};
