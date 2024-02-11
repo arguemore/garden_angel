@@ -7,9 +7,9 @@ import {markdownSchema} from 'sanity-plugin-markdown'
 
 export default defineConfig({
   name: 'default',
-  title: 'NotYasho Blog',
+  title: 'your-garden-angel',
 
-  projectId: 'u62jjaxi',
+  projectId: 'a7fk82qa',
   dataset: 'production',
 
   plugins: [deskTool(), unsplashImageAsset(), visionTool(), markdownSchema()],
