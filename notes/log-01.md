@@ -6,9 +6,12 @@ I'm documenting my learnings from this project just in case it would come in han
 
 ### February 11, 2024
 
-| Hurdle          | Possible Solution       | Source | Status |
+| Hurdle          | Solution       | Source | Status |
 | :-------------: | :---------------------: | ------ | ------ |
 | Need new studio in forked repo | Lucky I had a spare Studio project | Me | Resolved |
 | Studio port incorrect |  Set devcontainer appPort variable to 3333 | [Link](https://www.sanity.io/answers/troubleshooting-github-codespaces-and-sanity-integration) | Resolved |
-| Output directory 'public' not found | Adjust folder to /src | Me  | Resolved |
-| 
+| Output directory 'public' not found | Adjust outDir to /src | Me  | Resolved |
+| Can't build project | Made sure @sveltejs/kit and @svelte/adapter-vercel were the same release (use --legacy-peer-deps flag upon installation) | Me | Resolved |
+| Outdated deployment config variable | Took out `edge:false` variable | [Link](https://kit.svelte.dev/docs/adapter-vercel) | Resolved |
+| Cannot find '@sveltejs/kit' on prod build | Delete ./vercel folder and include folder in .gitignore | [Link](https://github.com/sveltejs/kit/issues/6988) | Resolved |
+| Cannot access /studio | Forgot to build for hosting | [Link](https://www.sanity.io/docs/deployment#289addefbae7) | Resolved |
