@@ -1,0 +1,19 @@
+# Progress Logs
+
+I'm documenting my learnings from this project just in case it would come in handy in the future. I will express in detail errors I encountered and how I solved them.
+
+### February 11, 2024
+
+As a newbie programmer, my first hurdle was Sanity Studio having their studios available for new repos only (ex. clean starters and repos with no previous Sanity Studio apps intalled). They don't do the thing anymore where you can create a new project through their website (Maybe I hallucinated that when I used Sanity Studio Pre-Vercel Acquisition). Thankfully, I had a spare Legacy Free Plan Sanity Studio project lying around in the archives that I just unarchived to turn into my project.
+
+Next hurdle was my studio popping up to a different port number when Sanity Studio needed 3333 for the studio. The solution to that was to put a .devcontainer/devcontainer.json with the following code in it:
+
+```
+{
+    "name": "Sanity Project",
+    "appPort": 3333
+}
+```
+
+For the studio to go to the desired port, you would have to restart the codespace first before making more changes.
+
