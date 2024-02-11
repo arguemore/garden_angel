@@ -10,7 +10,6 @@ const config = {
 	kit: {
 		adapter: adapter({
 			//edge: false,
-			runtime: 'nodejs20.x',
 			split: false,
 			compress: true
 		})
