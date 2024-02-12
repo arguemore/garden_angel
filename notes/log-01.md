@@ -16,3 +16,11 @@ I wanted to be as specific as I can with the hurdles (errors) but I made these l
 | Outdated deployment config variable | Took out `edge:false` variable | [Link](https://kit.svelte.dev/docs/adapter-vercel) | Resolved |
 | Cannot find '@sveltejs/kit' on production build | Delete ./vercel folder and include folder in .gitignore | [Link](https://github.com/sveltejs/kit/issues/6988) | Resolved |
 | Cannot access /studio | Forgot to build /studio for hosting | [Link](https://www.sanity.io/docs/deployment#289addefbae7) | Resolved |
+
+### February 12, 2024
+
+| Hurdle          | Solution       | Source | Status |
+| :-------------: | :---------------------: | ------ | ------ |
+| Cannot access /studio | Adjust outDir to . | [Link](https://stackoverflow.com/questions/75348347/problem-when-deploying-sveltekit-project-to-vercel) |  |
+
+
