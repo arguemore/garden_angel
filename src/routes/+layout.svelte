@@ -54,7 +54,7 @@
 	});
 </script>
 
-<FirstTime />
+//<FirstTime />
 <slot />
 
 <style lang="scss">
