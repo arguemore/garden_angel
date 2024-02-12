@@ -6,7 +6,7 @@ import {unsplashImageAsset} from 'sanity-plugin-asset-source-unsplash'
 import {markdownSchema} from 'sanity-plugin-markdown'
 
 export default defineConfig({
-  name: 'default',
+  name: 'your-garden-angel',
   title: 'your-garden-angel',
 
   projectId: 'a7fk82qa',
