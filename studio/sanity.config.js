@@ -8,7 +8,7 @@ import {markdownSchema} from 'sanity-plugin-markdown'
 export default defineConfig({
   name: 'your-garden-angel',
   title: 'your-garden-angel',
-
+  basePath: '/production',
   projectId: 'a7fk82qa',
   dataset: 'production',
 
