@@ -3,11 +3,7 @@
     "builds": [
       {
         "src": "studio/package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "root": true,
-          "distDir": "dist"
-        }
+        "use": "@vercel/node",
       },
       {
         "src": "svelte.config.js",
