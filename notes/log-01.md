@@ -19,8 +19,15 @@ I wanted to be as specific as I can with the hurdles (errors) but I made these l
 
 ### February 12, 2024
 
-| Hurdle          | Solution       | Source | Status |
+| Hurdle          | Solution                | Source | Status |
 | :-------------: | :---------------------: | ------ | ------ |
 | Cannot access /studio | Adjust outDir to . | [Link](https://stackoverflow.com/questions/75348347/problem-when-deploying-sveltekit-project-to-vercel) |  |
+
+### February 19, 2024
+
+| Hurdle          | Solution                | Source | Status |
+| :-------------: | :---------------------: | ------ | ------ |
+| Cannot access /studio | Deploy /studio separately with root directory as 'studio', no overrides | Suggestion from app maker | Still unresolved |
+| Sanity Studio won't load (Failed to load module script: Expected a JavaScript module script but the server responded with a MIME type of "text/html") | App is still building root directory, not subfolder | [Link](https://stackoverflow.com/questions/72070748/failed-to-load-module-script-expected-a-javascript-module-script-but-the-server) | Didn't work for me |
 
 
