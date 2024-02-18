@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "studio/sanity.json",
+        "use": "@sanity/vercel-studio",
+        "config": {
+          "root": true
+        }
+      },
+      {
+        "src": "svelte.config.js",
+        "use": "@sveltejs/kit"
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/studio/(.*)",
+        "destination": "/studio/$1"
+      }
+    ]
+  }
