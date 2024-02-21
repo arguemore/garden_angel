@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 import {unsplashImageAsset} from 'sanity-plugin-asset-source-unsplash'
 import {markdownSchema} from 'sanity-plugin-markdown'
 
-export default defineConfig({
+const config = defineConfig({
   name: 'your-garden-angel',
   title: 'your-garden-angel',
   basePath: '/production',
@@ -17,4 +17,6 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
-})
+});
+
+renderStudio(document.getElementById("sanity"), config);
