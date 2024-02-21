@@ -8,7 +8,7 @@ Will be adding the following:
 
 # Progress Logs
 
-**Current status:** As of Feb 12, 2024 -- Work in progress
+**Current status:** As of Feb 19, 2024 -- Work in progress
 
 You can find my progress with Zettelkastenifying this site [here](/notes/log-01.md) where I document errors I encountered and resources I used to solve them.
 
