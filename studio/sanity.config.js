@@ -4,8 +4,9 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 import {unsplashImageAsset} from 'sanity-plugin-asset-source-unsplash'
 import {markdownSchema} from 'sanity-plugin-markdown'
+import {react} from {react}
 
-const config = defineConfig({
+export default config = defineConfig({
   name: 'your-garden-angel',
   title: 'your-garden-angel',
   projectId: 'a7fk82qa',
